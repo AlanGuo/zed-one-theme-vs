@@ -108,11 +108,20 @@
     },
     {
       "scope": [
+        "variable.language",
+        "variable.parameter",
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#a9afbcff"
+      }
+    },
+    {
+      "scope": [
         "constant",
         "constant.numeric",
         "constant.language",
         "constant.character",
-        "constant.character.escape",
         "constant.variable",
         "constant.other.color",
         "constant.other.symbol"
