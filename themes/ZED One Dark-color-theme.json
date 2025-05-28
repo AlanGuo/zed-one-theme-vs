@@ -77,11 +77,12 @@
     "extensionButton.prominentHoverBackground": "#37AF4E",
     "badge.background": "#528BFF",
     "badge.foreground": "#D7DAE0",
-    "peekView.border": "#528BFF",
     "peekViewResult.background": "#3b414d",
     "peekViewResult.selectionBackground": "#2C313A",
     "peekViewTitle.background": "#1B1D23",
-    "peekViewEditor.background": "#1B1D23"
+    "peekViewEditor.background": "#1B1D23",
+    "editorStickyScroll.border": "#464b57",
+    "editorStickyScroll.shadow": "#00000000"
   },
   "tokenColors": [
     {
