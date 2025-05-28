@@ -110,19 +110,14 @@
     },
     {
       "scope": [
-        "variable",
-        "variable.language",
-        "variable.parameter"
-      ],
-      "settings": {
-        "foreground": "#383A41"
-      }
-    },
-    {
-      "scope": [
+        "constant",
         "constant.numeric",
         "constant.language",
-        "constant.character"
+        "constant.character",
+        "constant.character.escape",
+        "constant.variable",
+        "constant.other.color",
+        "constant.other.symbol"
       ],
       "settings": {
         "foreground": "#AD6E25"
@@ -160,8 +155,7 @@
         "comment"
       ],
       "settings": {
-        "foreground": "#A2A3A7",
-        // "fontStyle": "italic"
+        "foreground": "#A2A3A7"
       }
     },
     {

@@ -108,22 +108,17 @@
     },
     {
       "scope": [
-        "variable",
-        "variable.language",
-        "variable.parameter"
-      ],
-      "settings": {
-        "foreground": "#a9afbcff"
-      }
-    },
-    {
-      "scope": [
+        "constant",
         "constant.numeric",
         "constant.language",
-        "constant.character"
+        "constant.character",
+        "constant.character.escape",
+        "constant.variable",
+        "constant.other.color",
+        "constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#BF956A"
+        "foreground": "#dfc184"
       }
     },
     {
@@ -169,8 +164,7 @@
         "comment"
       ],
       "settings": {
-        "foreground": "#5D636F",
-        // "fontStyle": "italic"
+        "foreground": "#5D636F"
       }
     },
     {
