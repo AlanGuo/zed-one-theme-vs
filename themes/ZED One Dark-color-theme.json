@@ -144,7 +144,7 @@
         "meta.method-call"
       ],
       "settings": {
-        "foreground": "#D07277"
+        "foreground": "#74ADE8"
       }
     },
     {
@@ -206,16 +206,16 @@
   ],
   "semanticTokenColors": {
     "function.declaration": {
-      "foreground": "#74ADE8"
+      "foreground": "#a9afbcff"
     },
     "method.declaration": {
-      "foreground": "#74ADE8"
+      "foreground": "#a9afbcff"
     },
-    "function": {
-      "foreground": "#D07277"
+    "namespace": {
+      "foreground": "#a9afbcff"
     },
-    "method": {
-      "foreground": "#D07277"
+    "property": {
+      "foreground": "#d07277"
     },
     "class": {
       "foreground": "#6EB4BF"
@@ -231,12 +231,6 @@
     },
     "string": {
       "foreground": "#A1C181"
-    },
-    "decorator": {
-      "foreground": "#74ADE8"
-    },
-    "decorator.identifier": {
-      "foreground": "#74ADE8"
     },
     "punctuation": {
       "foreground": "#6EB4BF"
