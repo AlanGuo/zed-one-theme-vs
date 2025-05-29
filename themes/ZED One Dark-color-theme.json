@@ -98,6 +98,14 @@
     },
     {
       "scope": [
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#d07277"
+      }
+    },
+    {
+      "scope": [
         "string",
         "text.literal",
         "string.quoted.double"
@@ -209,9 +217,6 @@
       "foreground": "#a9afbcff"
     },
     "method.declaration": {
-      "foreground": "#a9afbcff"
-    },
-    "namespace": {
       "foreground": "#a9afbcff"
     },
     "property": {

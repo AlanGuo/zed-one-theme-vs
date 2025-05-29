@@ -146,7 +146,7 @@
         "meta.method-call"
       ],
       "settings": {
-        "foreground": "#D3604F"
+        "foreground": "#5C78E2"
       }
     },
     {
@@ -202,11 +202,8 @@
     "method.declaration": {
       "foreground": "#5C78E2"
     },
-    "function": {
-      "foreground": "#D3604F"
-    },
-    "method": {
-      "foreground": "#D3604F"
+    "property": {
+      "foreground": "#d36050"
     },
     "class": {
       "foreground": "#3882B7"
