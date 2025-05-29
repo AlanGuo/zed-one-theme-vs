@@ -193,6 +193,16 @@
       "settings": {
         "foreground": "#A449AB"
       }
+    },
+    {
+      "scope": [
+        "support.type.property-name.json",
+        "meta.object-literal.key",
+        "string.quoted.double.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#d36050"
+      }
     }
   ],
   "semanticTokenColors": {
