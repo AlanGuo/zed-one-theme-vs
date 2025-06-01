@@ -1,16 +1,16 @@
 {
   "name": "zed-one-theme",
   "displayName": "ZED One Theme",
-  "description": "ZED's style, VS Code's compromise.",
-  "version": "0.2.0",
-  "publisher": "ARRRRNY",
+  "description": "A faithful recreation of Zed's beloved One theme for Visual Studio Code. Beautiful dark and light themes with complete syntax highlighting and terminal colors.",
+  "version": "1.0.0",
+  "publisher": "AlanGuo",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.91.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arrrrny/zed-one-theme-vs.git"
+    "url": "https://github.com/AlanGuo/zed-one-theme-vs.git"
   },
   "keywords": [
     "theme",
@@ -24,9 +24,9 @@
     "Themes"
   ],
   "bugs": {
-    "url": "https://github.com/arrrrny/zed-one-theme-vs/issues"
+    "url": "https://github.com/AlanGuo/zed-one-theme-vs/issues"
   },
-  "homepage": "https://github.com/arrrrny/zed-one-theme-vs#readme",
+  "homepage": "https://github.com/AlanGuo/zed-one-theme-vs#readme",
   "contributes": {
     "themes": [
       {
