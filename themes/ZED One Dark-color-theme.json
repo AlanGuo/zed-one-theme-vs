@@ -102,6 +102,7 @@
   },
   "tokenColors": [
     {
+      "name": "Keywords and storage",
       "scope": [
         "keyword",
         "storage",
@@ -117,18 +118,7 @@
     },
     {
       "scope": [
-        "string",
-        "text.literal",
-        "string.quoted.double"
-      ],
-      "settings": {
-        "foreground": "#A1C181"
-      }
-    },
-    {
-      "scope": [
-        "variable.language",
-        "variable.parameter",
+        "string.escape",
         "constant.character.escape"
       ],
       "settings": {
@@ -220,7 +210,7 @@
     }
   ],
   "semanticTokenColors": {
-    "static": "#669f59ff",
+    "static": "#dfc184ff",
     "property": "#d07277ff"
   },
   "semanticHighlighting": true
