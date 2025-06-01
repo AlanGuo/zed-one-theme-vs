@@ -42,10 +42,10 @@ This isn't just another port. We've carefully analyzed Zed's original One theme 
 ## 📸 Screenshots
 
 ### Dark Theme
-![ZED One Dark Theme](https://raw.githubusercontent.com/alanguo/zed-one-theme-vs/main/screenshots/dark-preview.png)
+![ZED One Dark Theme](https://github.com/AlanGuo/zed-one-theme-vs/blob/master/screenshots/dark-preview.png)
 
 ### Light Theme
-![ZED One Light Theme](https://raw.githubusercontent.com/alanguo/zed-one-theme-vs/main/screenshots/light-preview.png)
+![ZED One Light Theme](https://github.com/AlanGuo/zed-one-theme-vs/blob/master/screenshots/light-preview.png)
 
 ## 🎨 Color Palette
 
