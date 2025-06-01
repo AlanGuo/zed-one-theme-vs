@@ -85,6 +85,9 @@
   "tokenColors": [
     {
       "scope": [
+        "keyword",
+        "storage",
+        "storage.type",
         "keyword.control.import",
         "storage.modifier",
         "storage.type",
@@ -94,7 +97,6 @@
         "foreground": "#B477CF"
       }
     },
-
     {
       "scope": [
         "string",
@@ -171,25 +173,6 @@
       ],
       "settings": {
         "foreground": "#5D636F"
-      }
-    },
-    {
-      "scope": [
-        "storage.type.function",
-        "keyword.operator",
-        "keyword.control.import",
-        "storage.modifier",
-        "storage.type",
-        "keyword.control",
-        "keyword.operator.logical",
-        "keyword.operator.in",
-        "keyword.control.loop",
-        "keyword.operator.in.rust",
-        "keyword.control.in.rust",
-        "keyword.operator.word.rust"
-      ],
-      "settings": {
-        "foreground": "#B477CF"
       }
     },
     {
