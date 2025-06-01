@@ -16,20 +16,19 @@
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.background": "#353b45",
     "dropdown.border": "#464b57",
-    "editorIndentGuide.activeBackground": "#626772",
+    "editorIndentGuide.activeBackground1": "#626772",
     "editor.background": "#282c33",
     "editor.foreground": "#ABB2BF",
     "editor.lineHighlightBackground": "#99BBFF0A",
     "editor.selectionBackground": "#3E4451",
     "editorCursor.foreground": "#528BFF",
     "editor.findMatchHighlightBackground": "#528BFF3D",
-    "editorGroup.background": "#2e343e",
     "editorGroup.border": "#464b57",
     "editorGroupHeader.tabsBackground": "#2e343e",
     "editorGroupHeader.tabsBorder": "#464b57",
     "tab.activeBorder": "#282c33",
     "editorGroupHeader.border": "#464b57",
-    "editorIndentGuide.background": "#ABB2BF26",
+    "editorIndentGuide.background1": "#ABB2BF26",
     "editorLineNumber.foreground": "#636D83",
     "editorLineNumber.activeForeground": "#ABB2BF",
     "editorWhitespace.foreground": "#ABB2BF26",
@@ -50,7 +49,6 @@
     "list.highlightForeground": "#D7DAE0",
     "list.inactiveSelectionBackground": "#2C313A",
     "list.inactiveSelectionForeground": "#D7DAE0",
-    "notification.background": "#3b414d",
     "pickerGroup.border": "#528BFF",
     "scrollbarSlider.background": "#4E566680",
     "scrollbarSlider.activeBackground": "#747D9180",
@@ -96,14 +94,7 @@
         "foreground": "#B477CF"
       }
     },
-    {
-      "scope": [
-        "entity.name.type"
-      ],
-      "settings": {
-        "foreground": "#d07277"
-      }
-    },
+
     {
       "scope": [
         "string",
@@ -140,16 +131,9 @@
     },
     {
       "scope": [
-        "entity.name.function"
-      ],
-      "settings": {
-        "foreground": "#74ADE8"
-      }
-    },
-    {
-      "scope": [
-        "meta.function-call",
-        "meta.method-call"
+        "entity.name.function",
+        "entity.name.tag",
+        "punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#74ADE8"
@@ -167,17 +151,6 @@
     },
     {
       "scope": [
-        "punctuation.bracket",
-        "punctuation.definition.block",
-        "punctuation.definition.bracket",
-        "punctuation.definition.parameters"
-      ],
-      "settings": {
-        "foreground": "#6EB4BF"
-      }
-    },
-    {
-      "scope": [
         "comment"
       ],
       "settings": {
@@ -186,29 +159,11 @@
     },
     {
       "scope": [
-        "punctuation.definition.tag",
-        "entity.name.tag"
-      ],
-      "settings": {
-        "foreground": "#74ADE8"
-      }
-    },
-    {
-      "scope": [
-        "meta.decorator",
-        "entity.name.function.decorator"
-      ],
-      "settings": {
-        "foreground": "#74ADE8"
-      }
-    },
-    {
-      "scope": [
         "storage.type.function",
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#6EB4BF"
+        "foreground": "#B477CF"
       }
     },
     {
@@ -220,23 +175,32 @@
       "settings": {
         "foreground": "#d07277"
       }
+    },
+    {
+      "scope": [
+        "support.type.primitive",
+        "entity.name.type.primitive",
+        "storage.type.numeric",
+        "storage.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#A1C181"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.caps",
+        "variable.other.constant",
+        "entity.name.constant"
+      ],
+      "settings": {
+        "foreground": "#A1C181"
+      }
     }
   ],
   "semanticTokenColors": {
-    "function.declaration": {
-      "foreground": "#a9afbcff"
-    },
-    "method.declaration": {
-      "foreground": "#a9afbcff"
-    },
     "property": {
       "foreground": "#d07277"
-    },
-    "class": {
-      "foreground": "#6EB4BF"
-    },
-    "type": {
-      "foreground": "#6EB4BF"
     },
     "parameter": {
       "foreground": "#C8CCD4"
@@ -244,11 +208,32 @@
     "keyword": {
       "foreground": "#B477CF"
     },
-    "string": {
-      "foreground": "#A1C181"
+    "class": {
+      "foreground": "#6EB4BF"
+    },
+    "type": {
+      "foreground": "#6EB4BF"
     },
     "punctuation": {
       "foreground": "#6EB4BF"
+    },
+    "enum": {
+      "foreground": "#6EB4BF"
+    },
+    "struct": {
+      "foreground": "#6EB4BF"
+    },
+    "string": {
+      "foreground": "#A1C181"
+    },
+    "static": {
+      "foreground": "#A1C181"
+    },
+    "number": {
+      "foreground": "#A1C181"
+    },
+    "constant": {
+      "foreground": "#A1C181"
     }
   },
   "semanticHighlighting": true
