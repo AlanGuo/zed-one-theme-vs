@@ -80,7 +80,25 @@
     "peekViewTitle.background": "#1B1D23",
     "peekViewEditor.background": "#1B1D23",
     "editorStickyScroll.border": "#464b57",
-    "editorStickyScroll.shadow": "#00000000"
+    "editorStickyScroll.shadow": "#00000000",
+    "terminal.background": "#282c33",
+    "terminal.foreground": "#dce0e5",
+    "terminal.ansiBlack": "#282c33",
+    "terminal.ansiBrightBlack": "#525561",
+    "terminal.ansiRed": "#d07277",
+    "terminal.ansiBrightRed": "#673a3c",
+    "terminal.ansiGreen": "#a1c181",
+    "terminal.ansiBrightGreen": "#4d6140",
+    "terminal.ansiYellow": "#dec184",
+    "terminal.ansiBrightYellow": "#e5c07b",
+    "terminal.ansiBlue": "#74ade8",
+    "terminal.ansiBrightBlue": "#385378",
+    "terminal.ansiMagenta": "#be5046",
+    "terminal.ansiBrightMagenta": "#5e2b26",
+    "terminal.ansiCyan": "#6eb4bf",
+    "terminal.ansiBrightCyan": "#3a565b",
+    "terminal.ansiWhite": "#dce0e5",
+    "terminal.ansiBrightWhite": "#dce0e5"
   },
   "tokenColors": [
     {
@@ -200,5 +218,10 @@
         "foreground": "#d07277"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "static": "#669f59ff",
+    "property": "#d07277ff"
+  },
+  "semanticHighlighting": true
 }
