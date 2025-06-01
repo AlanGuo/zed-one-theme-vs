@@ -115,7 +115,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 Love it? Hate it? Found a bug? Let us know!
 
 - 🐛 [Report Issues](https://github.com/AlanGuo/zed-one-theme-vs/issues)
-- ⭐ [Rate on Marketplace](https://marketplace.visualstudio.com/items?itemName=alanguo.zed-one-theme)
+- ⭐ [Rate on Marketplace](https://marketplace.visualstudio.com/items?itemName=AlanGuo.zed-one-theme-for-vscode)
 - 🐦 Follow [@AlanBitApp](https://x.com/AlanBitApp) for updates
 
 ---
