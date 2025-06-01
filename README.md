@@ -95,7 +95,7 @@ See [CHANGELOG.md](CHANGELOG.md) for a detailed history of changes.
 Found a color that's off? Missing syntax highlighting for your favorite language? We'd love your help!
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b improve-python-highlighting`)
+2. Create a feature branch (`git checkout -b improve-zed-one-highlighting`)
 3. Make your changes
 4. Test with various file types
 5. Submit a pull request
@@ -116,7 +116,7 @@ Love it? Hate it? Found a bug? Let us know!
 
 - 🐛 [Report Issues](https://github.com/AlanGuo/zed-one-theme-vs/issues)
 - ⭐ [Rate on Marketplace](https://marketplace.visualstudio.com/items?itemName=alanguo.zed-one-theme)
-- 🐦 Follow [@@AlanBitApp](https://x.com/AlanBitApp) for updates
+- 🐦 Follow [@AlanBitApp](https://x.com/AlanBitApp) for updates
 
 ---
 
