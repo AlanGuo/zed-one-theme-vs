@@ -116,9 +116,25 @@
       }
     },
     {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#dfc184"
+      }
+    },
+    {
       "scope": [
+        "constant.other.caps",
+        "variable.other.constant",
+        "entity.name.constant",
+        "support.type.primitive",
+        "entity.name.type.primitive",
+        "storage.type.numeric",
+        "storage.type.primitive",
+        "string",
+        "text.literal",
+        "string.quoted.double",
+        "string.quoted.single",
         "constant",
-        "constant.numeric",
         "constant.language",
         "constant.character",
         "constant.variable",
@@ -126,7 +142,7 @@
         "constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#dfc184"
+        "foreground": "#A1C181"
       }
     },
     {
@@ -160,7 +176,17 @@
     {
       "scope": [
         "storage.type.function",
-        "keyword.operator"
+        "keyword.operator",
+        "keyword.control.import",
+        "storage.modifier",
+        "storage.type",
+        "keyword.control",
+        "keyword.operator.logical",
+        "keyword.operator.in",
+        "keyword.control.loop",
+        "keyword.operator.in.rust",
+        "keyword.control.in.rust",
+        "keyword.operator.word.rust"
       ],
       "settings": {
         "foreground": "#B477CF"
@@ -170,71 +196,26 @@
       "scope": [
         "support.type.property-name.json",
         "meta.object-literal.key",
-        "string.quoted.double.json support.type.property-name.json"
+        "string.quoted.double.json support.type.property-name.json",
+        "keyword.control.default"
       ],
       "settings": {
         "foreground": "#d07277"
       }
     },
     {
+      "name": "Object property names",
       "scope": [
-        "support.type.primitive",
-        "entity.name.type.primitive",
-        "storage.type.numeric",
-        "storage.type.primitive"
+        "variable.other.property",
+        "variable.object.property",
+        "meta.object-literal.key",
+        "entity.name.tag.yaml",
+        "support.type.property-name",
+        "variable.other.member"
       ],
       "settings": {
-        "foreground": "#A1C181"
-      }
-    },
-    {
-      "scope": [
-        "constant.other.caps",
-        "variable.other.constant",
-        "entity.name.constant"
-      ],
-      "settings": {
-        "foreground": "#A1C181"
+        "foreground": "#d07277"
       }
     }
-  ],
-  "semanticTokenColors": {
-    "property": {
-      "foreground": "#d07277"
-    },
-    "parameter": {
-      "foreground": "#C8CCD4"
-    },
-    "keyword": {
-      "foreground": "#B477CF"
-    },
-    "class": {
-      "foreground": "#6EB4BF"
-    },
-    "type": {
-      "foreground": "#6EB4BF"
-    },
-    "punctuation": {
-      "foreground": "#6EB4BF"
-    },
-    "enum": {
-      "foreground": "#6EB4BF"
-    },
-    "struct": {
-      "foreground": "#6EB4BF"
-    },
-    "string": {
-      "foreground": "#A1C181"
-    },
-    "static": {
-      "foreground": "#A1C181"
-    },
-    "number": {
-      "foreground": "#A1C181"
-    },
-    "constant": {
-      "foreground": "#A1C181"
-    }
-  },
-  "semanticHighlighting": true
+  ]
 }
