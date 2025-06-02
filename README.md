@@ -83,7 +83,7 @@ npm install
 code .
 
 # Package the extension (optional)
-vsce package
+npx @vscode/vsce package
 ```
 
 ## 📝 Changelog

@@ -117,6 +117,7 @@
       }
     },
     {
+      "name": "String escape sequences",
       "scope": [
         "string.escape",
         "constant.character.escape"
@@ -126,12 +127,14 @@
       }
     },
     {
+      "name": "Numeric constants",
       "scope": ["constant.numeric"],
       "settings": {
         "foreground": "#dfc184"
       }
     },
     {
+      "name": "String constants",
       "scope": [
         "constant.other.caps",
         "variable.other.constant",
