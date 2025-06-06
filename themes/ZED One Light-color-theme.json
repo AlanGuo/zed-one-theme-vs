@@ -212,6 +212,28 @@
       "settings": {
         "foreground": "#d3604f"
       }
+    },
+    {
+      "name": "List markers",
+      "scope": [
+        "punctuation.definition.list_item",
+        "punctuation.definition.list.begin",
+        "punctuation.definition.list.end"
+      ],
+      "settings": {
+        "foreground": "#d3604f"
+      }
+    },
+    {
+      "name": "Special punctuation",
+      "scope": [
+        "punctuation.section.embedded",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#b92b46"
+      }
     }
   ],
   "semanticTokenColors": {

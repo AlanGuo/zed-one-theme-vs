@@ -210,6 +210,28 @@
       "settings": {
         "foreground": "#d07277"
       }
+    },
+    {
+      "name": "List markers",
+      "scope": [
+        "punctuation.definition.list_item",
+        "punctuation.definition.list.begin",
+        "punctuation.definition.list.end"
+      ],
+      "settings": {
+        "foreground": "#d07277"
+      }
+    },
+    {
+      "name": "Special punctuation",
+      "scope": [
+        "punctuation.section.embedded",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#b1574b"
+      }
     }
   ],
   "semanticTokenColors": {
