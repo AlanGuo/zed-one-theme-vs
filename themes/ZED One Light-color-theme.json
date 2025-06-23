@@ -14,6 +14,7 @@
     "button.foreground": "#FFFFFF",
     "button.hoverBackground": "#6B83ED",
     "button.secondaryForeground": "#616161",
+    "button.secondaryBackground": "#FFFFFF",
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.background": "#FFFFFF",
     "dropdown.border": "#DBDBDC",

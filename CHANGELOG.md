@@ -5,6 +5,16 @@ All notable changes to the "ZED One Theme" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.8] - 2025-06-23
+
+### Added
+- Secondary button styling with `button.secondaryBackground` and `button.secondaryForeground`
+- Enhanced button visual hierarchy for better UI consistency
+
+### Fixed
+- Added missing punctuation highlighting for list markers and special punctuation
+- Improved syntax highlighting accuracy to match ZED original theme
+
 ## [1.0.5] - 2025-06-06
 
 ### Fixed
