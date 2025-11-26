@@ -2,7 +2,7 @@
   "name": "zed-one-theme-for-vscode",
   "displayName": "ZED One Theme for VSCode",
   "description": "A faithful recreation of Zed's beloved One theme for Visual Studio Code. Beautiful dark and light themes with complete syntax highlighting and terminal colors.",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "publisher": "AlanGuo",
   "icon": "icon.png",
   "engines": {
