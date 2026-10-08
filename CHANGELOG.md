@@ -5,6 +5,11 @@ All notable changes to the "ZED One Theme" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.12] - 2026-10-08
+
+### Fixed
+- Default VS Code's Modern UI to off to preserve square editor tabs and the original Zed-style borders in both themes. This extension-wide default also restores the classic sidebar and panel layout; explicit user or workspace settings take precedence.
+
 ## [1.0.10] - 2025-11-26
 
 ### Fixed

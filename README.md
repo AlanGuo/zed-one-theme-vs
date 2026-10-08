@@ -30,6 +30,18 @@ A faithful recreation of Zed's beloved One theme for Visual Studio Code. Because
 3. Restart VS Code
 4. Select the theme from Preferences > Color Theme
 
+### Square Tabs on Newer VS Code Versions
+
+This extension defaults `workbench.experimental.modernUI` to `false` to preserve the original square tabs and Zed-style borders. This also restores the classic sidebar and panel layout. The default applies while the extension is enabled, including when another color theme is selected; explicit user or workspace settings take precedence.
+
+If tabs remain rounded after updating, set this in your VS Code settings:
+
+```json
+"workbench.experimental.modernUI": false
+```
+
+Set it to `true` if you prefer VS Code's Modern UI. Older VS Code versions without this setting keep their existing appearance.
+
 ## 🎯 What Makes This Special
 
 This isn't just another port. We've carefully analyzed Zed's original One theme and recreated:
